@@ -1,0 +1,34 @@
+Jerarquía
+
+Dependencia
+> Carpeta de Proyecto
+>> Proyecto
+> Carpeta de Proyecto 2
+>> Proyecto 2
+>Biblioteca de Clases
+>>Clase
+
+Crear el proyecto nuevo. Esto crea la dependencia.
+Crear una carpeta y arrastrar el proyecto ahí.
+Click derecho sobre la dependencia > Agregar > Nuevo proyecto > Biblioteca de clases.
+Nombrar la biblioteca como "Entidades".
+Renombrar el objeto que se genera dentro de la entidad con el nombre indicado.
+Click derecho sobre el archivo "Dependencias" dentro del proyecto.
+Click en "Agregar referencia del proyecto".
+Seleccionar "Entidades".
+Dentro del proyecto, la primera línea debe ser "using Entidades;"
+
+Quizás sea necesario agregar las siguientes líneas al archivo de clase:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+----------
+
+Preguntas para la clase
+¿Cuál es el nivel jerárquico que deben ocupar las entidades? ¿Van inmediatamente dentro de la dependencia o tienen que colocarse al mismo nivel del proyecto?
+Si en entidades quiero declarar más de una clase ¿debo crear varios archivos de clase o van todos en el mismo?
